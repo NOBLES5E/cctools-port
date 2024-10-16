@@ -1,2 +1,2 @@
 #! /bin/sh
-echo "$1"
+echo "$1" | sed 's/-sim/-simulator/g'
